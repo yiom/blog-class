@@ -1,5 +1,9 @@
 <div class="post">
   <b class="title">{{ title }}</b>
-  {{limit-text text 300}}
-  <button class="btn btn-info">Full Post</button>
+  {{#if full}}
+    {{ text }}
+  {{ else }}
+    {{limit-text text 300}}
+    {{#link-to 'post' id}}<button class="btn btn-info">Full Post</button>{{/link-to}}
+  {{/if}}
 </div>
