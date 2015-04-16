@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'blog',
     environment: environment,
-    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com https://*.firebaseio.com" },
     firebase: 'https://blog-class.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
