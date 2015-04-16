@@ -1,0 +1,7 @@
+{{#link-to 'index' class="btn btn-primary"}}Back{{/link-to}}
+
+<form class="post" {{action 'post' on="submit"}}>
+  {{input value=title class="form-control" placeholder="Title"}}
+  {{textarea value=text placeholder="text" class="form-control"}}
+  <button class="btn btn-success" type="submit">Submit</button>
+</form>

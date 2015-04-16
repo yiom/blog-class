@@ -1,9 +1,10 @@
 html, body {
   text-align: center;
+  padding-top: 10px;
 }
 
 .post {
-  display: inline-block;
+  display: block;
   text-align: left;
   max-width: 400px;
   margin: 10px auto;
@@ -16,10 +17,14 @@ html, body {
   box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+.post > * {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .post > .title {
   display: block;
   font-size: 1.3em;
-  margin-bottom: 10px;
 }
 
 .post > button {
