@@ -1,0 +1,28 @@
+html, body {
+  text-align: center;
+}
+
+.post {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 2px;
+
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.post > .title {
+  display: block;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.post > button {
+  margin-top: 10px;
+  display: block;
+}
